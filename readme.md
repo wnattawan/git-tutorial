@@ -22,19 +22,19 @@ Configuring Git
 There are three levels of configuration: system, user and project
 
 ...
-## system level
-## file location (-nix): /etc/gitconfig
-## file location (Windows): <git_installed>/etc/gitconfig
+// system level
+// file location (-nix): /etc/gitconfig
+// file location (Windows): <git_installed>/etc/gitconfig
 $ git config --system
 
-## user level
-## file location (-nix): ~/.gitconfig
-## file location (Windows): Users/<name>/.gitconfig
+// user level
+// file location (-nix): ~/.gitconfig
+// file location (Windows): Users/<name>/.gitconfig
 $ git config --global
 
-## repository level 
-## file location (-nix): <repo>/.git/config
-## file location (Windows): <repo>/.git/config
+// repository level 
+// file location (-nix): <repo>/.git/config
+// file location (Windows): <repo>/.git/config
 $ git config
 ...
 
@@ -51,36 +51,36 @@ branch.master.merge=refs/heads/master
 Working with Git locally
 ------------------------
 ...
-## Initialize Git
+// Initialize Git
 $ git init
 
-## Create a readme.txt
+// Create a readme.txt
 $ touch readme.txt
 
-## Stage readme.txt
+// Stage readme.txt
 $ git add readme.txt
 
-## Modify readme.txt
-## Update a staged readme.txt
+// Modify readme.txt
+// Update a staged readme.txt
 $ git add -u readme.txt
 
-## Commit readme.txt to local repo
+// Commit readme.txt to local repo
 $ git commit -m "Initial commit"
 
-## Show file status in a working copy
+// Show file status in a working copy
 $ git status
 
-## Show commit logs
+// Show commit logs
 $ git log [--oneline] [--graph]
 $ git shortlog
 
-## Unstage files
+// Unstage files
 $ git reset readme.txt	
 
-## Restore working copy files
+// Restore working copy files
 $ git checkout -- readme.txt
 
-## Show changes between commits
+// Show changes between commits
 $ git diff HEAD~1..HEAD
 $ git diff nnnnnn..mmmmmm
 $ git diff --staged
