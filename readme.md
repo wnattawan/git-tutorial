@@ -20,8 +20,7 @@ Configuring Git
 ---------------
 
 There are three levels of configuration: system, user and project
-
-...
+```
 // system level
 // file location (-nix): /etc/gitconfig
 // file location (Windows): <git_installed>/etc/gitconfig
@@ -36,7 +35,7 @@ $ git config --global
 // file location (-nix): <repo>/.git/config
 // file location (Windows): <repo>/.git/config
 $ git config
-...
+```
 
 ####Common config
 user.name=wnattawan
@@ -50,7 +49,7 @@ branch.master.merge=refs/heads/master
 
 Working with Git locally
 ------------------------
-...
+```
 // Initialize Git
 $ git init
 
@@ -84,7 +83,7 @@ $ git checkout -- readme.txt
 $ git diff HEAD~1..HEAD
 $ git diff nnnnnn..mmmmmm
 $ git diff --staged
-...
+```
 
 Advanced Git
 ============
