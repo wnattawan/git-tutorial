@@ -85,6 +85,28 @@ $ git diff nnnnnn..mmmmmm
 $ git diff --staged
 ```
 
+Working with Git remotely
+-------------------------
+```
+// Clone a git repository
+$ git clone https://github.com/wnattawan/git-tutorial.git
+
+// View a remote repository
+$ git remote
+
+// Show remote url 
+$ git remote -v
+
+// View commit
+$ git show HEAD
+
+// View all branches locally
+$ git branch
+
+// View all branches remotely
+$ git branch -r
+```
+
 Advanced Git
 ============
 N/A
