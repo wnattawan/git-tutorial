@@ -1,0 +1,2 @@
+Update feature2
+It works with arrow keys now.
