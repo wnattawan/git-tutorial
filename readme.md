@@ -13,6 +13,17 @@ Bitbucket - A web-based hosting service for projects that use either the Mercuri
 
 Then, there are bunch of Git clients. 
 
+To use Git for collaborate with other developers. You need to know concepts of remote and local repositories. 
+A remote repo can be for example hosted on Github or Bitbucket. This is known as "origin". You can also create your own central repository. In this case it is call a bare repository. Unlike normal repositories, a bare repository doesn't have a working copy. 
+
+You use a remote repository to share and synchronize work between developers. 
+
+A developer needs to donwload the latest version from the remote repo and share his/her work by uploading to the remote repo using git pull and push respectively. 
+
+Git pull is equivalent to git fetch + git merge
+
+For a succesful collaboration with Git, you need a syncing model to follow. For example, you should only commit functional code to the remote repository. Pull from the remote repo often to ensure that you develop on the latest code. Develop new feature on a new branch. Agree on how a release is built, how to find code ready for production so on and so forth.
+
 Basic Git
 =========
 
